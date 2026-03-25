@@ -112,13 +112,13 @@ function App() {
           }
         />
         <Route
-  path="/saved-news"
-  element={
-    <ProtectedRoute isLoggedIn={isLoggedIn}>
-      <SavedNews currentUser={currentUser} />
-    </ProtectedRoute>
-  }
-/>
+          path="/saved-news"
+          element={
+            <ProtectedRoute isLoggedIn={isLoggedIn}>
+              <SavedNews currentUser={currentUser} />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
 
       <Footer />
