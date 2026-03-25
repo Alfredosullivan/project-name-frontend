@@ -1,0 +1,41 @@
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Roboto Slab */
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('./fonts/RobotoSlab-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('./fonts/RobotoSlab-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Opcional: Roboto si está en el zip */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}

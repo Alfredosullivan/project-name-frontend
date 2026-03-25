@@ -1,0 +1,34 @@
+.no-results {
+  padding: 80px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.no-results__image {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 24px;
+}
+
+.no-results__title {
+  margin: 0 0 16px;
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #1a1b22;
+}
+
+.no-results__text {
+  max-width: 356px;
+  margin: 0;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+}

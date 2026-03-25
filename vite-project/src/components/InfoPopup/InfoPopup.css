@@ -1,0 +1,22 @@
+.popup__message {
+  margin: 0 0 24px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.popup__link {
+  padding: 0;
+  border: none;
+  background: none;
+  color: #2f71e5;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.popup__link:hover {
+  opacity: 0.6;
+}

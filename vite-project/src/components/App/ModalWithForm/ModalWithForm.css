@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__container {
+  background: #fff;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 430px;
+  padding: 34px 36px;
+}
+
+.modal__input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.modal__input:focus {
+  outline: none;
+  border-color: #2f71e5;
+}
+
+.modal__button {
+  width: 100%;
+  background-color: #2f71e5;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.modal__button:hover {
+  opacity: 0.9;
+}
